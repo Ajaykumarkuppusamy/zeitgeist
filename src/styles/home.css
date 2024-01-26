@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.gifStyle1 {
+    background-image: url(https://static.showit.co/file/H9kaQH0xR52deciyPrEuYg/shared/production-id-4696278-unscreen.gif);
+    width: 80vw; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.gifStyle1 h2 {
+  font-size: 6vw; 
+}
+
+.right{
+  font-size: 18px;
+}
+.right *{
+  margin-top: 35px;
+}
+.right h1 ,.right-h1{
+  margin-bottom: 35px;
+  line-height: 5vh;
+  font-size:5vh;
+  font-weight:500;
+}
+
+.globeLeft{
+  width:30vw;
+}
+.globeRight{
+  width:40%;
+  z-index: -1;
+  margin-bottom: 3vh;
+}
